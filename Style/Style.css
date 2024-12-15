@@ -22,17 +22,16 @@ body{
     font-style: normal ;
 }
 header{
-    
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
     padding: 20px;
     margin-bottom: 50px;
-    background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
-    
 }
 Header h1{
     font-family: "Pirata One", Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-style: normal;
     color: var(--cor1);
+    display: inline-block;
 }
 header h1 a{
     color: var(--cor5);
@@ -53,9 +52,8 @@ nav a:hover{
     border-radius: 5px;
     color:var(--cor4)
 }
-
-
 main{
+    height: 77vh;
     background-color: var(--cor0);
     border: 3px solid black;
     border-radius: 5px;
@@ -64,7 +62,17 @@ main{
     max-width: 800px;
     min-width: 320px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.466);
-    
+}
+main div#login{
+    display: inline-block;
+    border: 1px solid black;
+    width: 100px;
+    right: 100%;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+main div.caixadeusuario{
+    border: 1px solid rgba(0, 0, 0, 0.356);
 }
 main p{
     margin: 10px 10px;
@@ -76,6 +84,30 @@ main a{
 main a:hover{
     text-decoration: solid;
     color: var(--cor1);
+}
+main div#apresentação{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 500px;
+    height: 500px;
+}
+main div.imagem{
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+}
+main div#q1{
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+}
+main div#q2{
+    background-image: url("/Imagens/gatodigitando.jpg");
 }
 article div.foto{
     position: relative;
@@ -90,7 +122,6 @@ iframe{
     top: 0%;
     width: 100%;
     height: 100%;
-
 }
 main ul{
     list-style-position: inside;
@@ -100,6 +131,8 @@ footer{
     background-image: linear-gradient(to bottom, var(--cor4), var(--cor2));
     padding-top:  0px;
     margin-top: 30px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 footer a{
     text-decoration: none;
