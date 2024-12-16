@@ -15,7 +15,8 @@
     --cor5: #020533;
 }
 body{
-    background-color: var(--cor4);
+    background: black url(../Imagens/wallpaper5.jpg) center center no-repeat fixed;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
