@@ -154,6 +154,10 @@ main div#q5{
     width: 200px;
     height: 200px;
 }
+main div form input{
+    margin: 10px auto;
+    
+}
 article div.foto{
     position: relative;
     background-color: black;
