@@ -15,16 +15,16 @@
     </header>
     <main>
         <div >
-            <form action="cadastro.php" autocomplete="off">
+            <form action="cadastro.php" method="post" >
                 <p>
                     <label for="usuario">usuario</label>
-                    <input type="text" name="usuario" id="usuario"></p>
+                    <input type="text" name="usuario" id="usuario" placeholder="Nome de usuario" autocomplete="username" required minlength="6"></p>
                 <p>
                     <label for="senha">senha</label>
-                    <input type="text" name="senha" id="senha">
+                    <input type="password" name="senha" id="senha" placeholder="Senha do usuario" autocomplete="current-password" required minlength="6">
                 </p>
+                <input type="reset" value="limpar">
                 <input type="submit" value="login">
-                
             </form>
             
         </div>
