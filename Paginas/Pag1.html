@@ -28,6 +28,15 @@
                     <li>|EXP | 0/10 |</li>
                 </ul>
                 <h2>|Atributos|</h2>
+                    <fieldset>
+                        <legend>Calculadora de Modficador</legend>
+                        <form action="cadastro.php" method="post">
+                            <input type="number" name="n1" id="in1" oninput="ical.innerHTML = Number(in1.value) - Number(10)">
+                            <label for="ical">Resultado</label>
+                            <output name="cal" id="ical">0
+                            </output>
+                        </form>
+                    </fieldset>
                 
                     <ul>
                         <li>|Força| 9          (-1) Mod de força</li>
@@ -85,7 +94,6 @@
                      </li>
                  </ul>
             </aside>
-        
     </article>
     </main>
     <footer>
